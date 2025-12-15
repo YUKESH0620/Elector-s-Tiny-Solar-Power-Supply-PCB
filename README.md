@@ -1,2 +1,80 @@
-# Elector-s-Tiny-Solar-Power-Supply-PCB
-Learning-focused redesign of Elektor’s Tiny Solar Power Supply. This project explores solar input conditioning, efficient power regulation, and compact PCB layout, implemented and documented using KiCad EDA.
+# Elector's-Tiny-Solar-Power-Supply-PCB
+# Elektor’s Solar Power Supply – Learning-Oriented Redesign
+
+## 1. Project Overview
+This project is a learning-focused redesign of **Elektor’s Tiny Solar Power Supply**. The aim is to understand the fundamentals of solar energy harvesting and low-power power supply design through hands-on schematic capture and PCB layout.
+
+The entire circuit and PCB were redesigned from scratch using **KiCad EDA**, while referring to the original Elektor concept **strictly for educational and learning purposes**. This project emphasizes clarity, simplicity, and real-world design thinking rather than product optimization.
+
+---
+
+## 2. Key Learning Objectives
+- Understanding **solar input conditioning** and handling variable input sources  
+- Learning **power regulation basics** for low-power applications  
+- Developing **component selection reasoning** based on electrical and practical constraints  
+- Applying **practical PCB layout considerations** such as trace routing, grounding, and component placement  
+
+---
+
+## 3. Tools & Software Used
+- **KiCad EDA**
+  - Schematic Editor  
+  - PCB Layout Editor  
+  - 3D Viewer  
+
+---
+
+## 4. Project Files
+- Schematic design files (`.kicad_sch`)  
+- PCB layout files (`.kicad_pcb`)  
+- 3D render images  
+- Manufacturing-ready Gerber files  
+
+---
+
+## 5. Block-Level Working Explanation
+The system starts with a **solar panel** as the primary energy source. Since solar output varies with light conditions, the input stage conditions and stabilizes this energy before it is used further.
+
+The conditioned solar input is then passed to a **DC-DC regulation stage**, which converts the variable input voltage into a usable and stable output suitable for low-power electronic circuits. Passive components around the regulator help improve stability and efficiency.
+
+Finally, the regulated output is made available through the output terminals, allowing it to power small loads or act as a learning reference for energy-harvesting power supplies.
+
+This block-level flow helps beginners understand how energy moves through the system without diving into complex mathematical analysis.
+
+---
+
+## 6. Bill of Materials (BOM)
+
+
+---
+
+## 7. Images & Renders
+
+- **Schematic**  
+ <img width="1082" height="746" alt="Screenshot 2025-12-06 165636" src="https://github.com/user-attachments/assets/7100dff9-c44d-4768-9d88-297e87470370" />
+
+
+- **PCB Layout**  
+ <img width="1542" height="806" alt="Screenshot 2025-12-06 165503" src="https://github.com/user-attachments/assets/ee0b36e1-6739-44f1-a46b-cc0b1ca534c3" />
+
+
+- **3D View**  
+  <img width="1723" height="892" alt="Screenshot 2025-12-07 211327" src="https://github.com/user-attachments/assets/35b297e6-8175-4dc4-a803-1cc63b77438f" />
+  <img width="1723" height="892" alt="Screenshot 2025-12-07 211327" src="https://github.com/user-attachments/assets/b290bf44-9f0e-4976-b616-7c9c50219553" />
+  <img width="1723" height="938" alt="Screenshot 2025-12-07 211958" src="https://github.com/user-attachments/assets/649a3b8d-ca07-40b3-9f39-9781ce2530e9" />
+
+
+
+---
+
+## 8. Disclaimer
+This project is intended **solely for learning and educational purposes**. It is not designed or validated for commercial or critical applications.
+
+The original concept is **inspired by Elektor**, and all redesign work presented here is independently implemented to improve understanding of solar-powered circuit design and PCB development.
+
+---
+
+## 9. Author
+- **Name:** Yukesh S  
+- **Toolchain:** KiCad EDA  
+
