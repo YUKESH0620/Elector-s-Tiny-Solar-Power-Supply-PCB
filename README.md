@@ -45,6 +45,25 @@ This block-level flow helps beginners understand how energy moves through the sy
 
 ## 6. Bill of Materials (BOM)
 
+| S.No | Reference | Component Type        | Value / Part Number        | Footprint     | Quantity | Description |
+|------|-----------|----------------------|----------------------------|---------------|----------|-------------|
+| 1    | U1        | DC-DC Boost Converter| AP3015AKTR-G1               | SOT-23-5     | 1        | Step-up DC-DC converter |
+| 2    | L1        | Inductor             | 10µH (LQM15AN103B0D)        | 0603         | 1        | Energy storage inductor |
+| 3    | D1        | Schottky Diode       | SS14                       | SMA           | 1        | Output rectifier |
+| 4    | D2        | Schottky Diode       | SS14                       | SMA           | 1        | Input protection |
+| 5    | Q1        | N-Channel MOSFET     | 2N7002                     | SOT-23        | 1        | Load / power control |
+| 6    | R1        | Resistor             | 1MΩ                        | 0603          | 1        | Feedback resistor |
+| 7    | R2        | Resistor             | 604kΩ                      | 0603          | 1        | Feedback resistor |
+| 8    | R3        | Resistor             | 100kΩ                      | 0603          | 1        | Gate pull-up |
+| 9    | R4        | Resistor             | 10Ω                        | 0603          | 1        | Current limiting |
+| 10   | C1        | Ceramic Capacitor    | 4.7µF, 50V, X7R            | 0805          | 1        | Input bypass capacitor |
+| 11   | C2        | Ceramic Capacitor    | 22µF, 10V, X7R             | 1206          | 1        | Output bulk capacitor |
+| 12   | C3        | Ceramic Capacitor    | 10µF, 50V, X7R             | 0805          | 1        | Output filtering |
+| 13   | J1        | Connector            | Conn_01x02_Pin             | Through-hole  | 1        | Output connector |
+| 14   | J2        | Connector            | Conn_01x02_Pin             | Through-hole  | 1        | Battery connector |
+| 15   | J4        | Connector            | Conn_01x02_Pin             | Through-hole  | 1        | Solar panel input |
+| 16   | SW1       | Switch               | ON/OFF (Conn_01x02_Pin)    | Through-hole  | 1        | Power enable switch |
+
 
 ---
 
