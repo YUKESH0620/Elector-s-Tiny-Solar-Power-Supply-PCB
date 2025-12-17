@@ -1,4 +1,3 @@
-# Elector's-Tiny-Solar-Power-Supply-PCB
 # Elektor’s Solar Power Supply – Learning-Oriented Redesign
 
 ## 1. Project Overview
