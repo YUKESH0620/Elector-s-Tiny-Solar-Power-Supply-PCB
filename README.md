@@ -79,7 +79,6 @@ This block-level flow helps beginners understand how energy moves through the sy
 
 - **3D View**  
   <img width="1723" height="892" alt="Screenshot 2025-12-07 211327" src="https://github.com/user-attachments/assets/35b297e6-8175-4dc4-a803-1cc63b77438f" />
-  <img width="1723" height="892" alt="Screenshot 2025-12-07 211327" src="https://github.com/user-attachments/assets/b290bf44-9f0e-4976-b616-7c9c50219553" />
   <img width="1723" height="938" alt="Screenshot 2025-12-07 211958" src="https://github.com/user-attachments/assets/649a3b8d-ca07-40b3-9f39-9781ce2530e9" />
 
 
